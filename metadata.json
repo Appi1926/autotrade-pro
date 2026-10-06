@@ -1,0 +1,8 @@
+{
+  "name": "TRADEPro",
+  "description": "Autonomous Trading App Using Machine Learning with Angel One SmartAPI, LSTM predictions, paper trading, and AI assistant.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

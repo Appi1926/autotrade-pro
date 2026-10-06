@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:translateX="0"
+        android:translateY="0">
+        <!-- Upward trend glowing line -->
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="4.5"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:pathData="M 30,72 L 44,58 L 56,66 L 78,36" />
+
+        <!-- Arrow head -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M 78,36 L 68,36 L 78,46 Z" />
+
+        <!-- Candlestick 1 -->
+        <path
+            android:fillColor="#EADDFF"
+            android:pathData="M 36,54 L 40,54 L 40,68 L 36,68 Z" />
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#EADDFF"
+            android:strokeWidth="1.5"
+            android:pathData="M 38,50 L 38,72" />
+
+        <!-- Candlestick 2 (Bullish) -->
+        <path
+            android:fillColor="#4ADE80"
+            android:pathData="M 48,46 L 52,46 L 52,60 L 48,60 Z" />
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#4ADE80"
+            android:strokeWidth="1.5"
+            android:pathData="M 50,42 L 50,64" />
+
+        <!-- Candlestick 3 (Strong Bullish) -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M 60,38 L 64,38 L 64,52 L 60,52 Z" />
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="1.5"
+            android:pathData="M 62,34 L 62,56" />
+
+        <!-- AI Neural Nodes -->
+        <path
+            android:fillColor="#4ADE80"
+            android:pathData="M 30,72m-3,0a3,3 0,1,1 6,0a3,3 0,1,1 -6,0" />
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M 44,58m-3,0a3,3 0,1,1 6,0a3,3 0,1,1 -6,0" />
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M 56,66m-3,0a3,3 0,1,1 6,0a3,3 0,1,1 -6,0" />
+        <path
+            android:fillColor="#4ADE80"
+            android:pathData="M 78,36m-3.5,0a3.5,3.5 0,1,1 7,0a3.5,3.5 0,1,1 -7,0" />
+    </group>
+</vector>
